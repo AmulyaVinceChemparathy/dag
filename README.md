@@ -26,17 +26,17 @@ Visualize and generate **Directed Acyclic Graphs (DAGs)** with Python. This proj
 ## 💻 Usage
 
 1. Clone the repository:
-
-git clone https://github.com/AmulyaVinceChemparathy/dag.git
+```bash
+  git clone https://github.com/AmulyaVinceChemparathy/dag.git
 
 2. Install dependencies:
-
-pip install networkx matplotlib
+```bash
+  pip install networkx matplotlib
 
 3. Run the script:
-
-python dag_generator.py
+```bash
+  python dag_generator.py
 
 4. View the generated DAG image (dag.png) in your project folder.
 ```bash
-git clone https://github.com/AmulyaVinceChemparathy/dag.git
+  git clone https://github.com/AmulyaVinceChemparathy/dag.git
