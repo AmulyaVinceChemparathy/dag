@@ -1,8 +1,7 @@
-# Directed Acyclic Graph (DAG) Generator 🌳
+# DAG Generator
 
-Visualize and generate **Directed Acyclic Graphs (DAGs)** with Python. This project helps you create hierarchical DAGs with random nodes and edges, compute levels, and generate visual graphs.
-
----
+This project generates a Directed Acyclic Graph (DAG) using Python, NetworkX, and Matplotlib.  
+The script will create a random DAG and save it as an image (`dag.png`) in your project folder.
 
 ## 🚀 Features
 
@@ -12,8 +11,6 @@ Visualize and generate **Directed Acyclic Graphs (DAGs)** with Python. This proj
 - **Visualization** – Render DAGs using **NetworkX** and **Matplotlib**.  
 - **Export Graph** – Save the generated DAG as `dag.png`.  
 
----
-
 ## 🛠 Technologies Used
 
 - Python  
@@ -21,22 +18,18 @@ Visualize and generate **Directed Acyclic Graphs (DAGs)** with Python. This proj
 - Matplotlib  
 - Collections (deque)  
 
----
+## 🚀 How to Run
 
-## 💻 Usage
-
-1. Clone the repository:
 ```bash
-  git clone https://github.com/AmulyaVinceChemparathy/dag.git
+# 1. Clone the repository
+git clone https://github.com/AmulyaVinceChemparathy/dag.git
+cd dag
 
-2. Install dependencies:
-```bash
-  pip install networkx matplotlib
+# 2. Install dependencies
+pip install networkx matplotlib
 
-3. Run the script:
-```bash
-  python dag_generator.py
+# 3. Run the script
+python dag_generator.py
 
-4. View the generated DAG image (dag.png) in your project folder.
-```bash
-  git clone https://github.com/AmulyaVinceChemparathy/dag.git
+# 4. View the generated DAG image in your project folder
+# (dag.png will be created after running the script)
